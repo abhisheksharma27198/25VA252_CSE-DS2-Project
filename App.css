@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #eaeded;
+}
+/* Navbar Setup */
+.navbar {
+  background-color: #131921;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+.logo { font-size: 20px; color: #febd69; font-weight: bold; }
+.search-box input { padding: 8px; width: 300px; border-radius: 4px; border: none; }
+/* Banner Setup */
+.banner { background-color: #f3a847; text-align: center; padding: 20px; }
+/* Product Grid & Card Setup */
+.product-container { display: flex; justify-content: center; gap: 20px; padding: 20px; }
+.product-card { 
+  background: white; 
+  padding: 15px; 
+  border-radius: 8px; 
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.product-card img { height: 120px; object-fit: contain; }
+.price { color: #b12704; font-size: 18px; font-weight: bold; }
+/* Amazon Yellow Button */
+.add-btn { 
+  background-color:lightpink; 
+  border: 1px solid #fcd200; 
+  padding: 8px 15px; 
+  border-radius: 20px; 
+  cursor: pointer; 
+  box-shadow:#f3a847
+}
+.add-btn:hover { background-color: #f7ca00; }
